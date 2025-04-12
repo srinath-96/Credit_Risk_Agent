@@ -1,4 +1,3 @@
-# Credit_Risk_Agent
 # Credit Risk Analysis Application
 
 This project is a web application featuring a chatbot interface designed to assist with credit risk analysis. It utilizes a Python backend (Flask, smolagents, H2O) for processing and modeling, and a React frontend for user interaction.
