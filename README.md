@@ -14,42 +14,28 @@ This project is a web application featuring a chatbot interface designed to assi
 ## Project Structure
 AcreditRiskAPP/
 ├── backend/
-
-│ ├── best_model/ # Directory where trained models are saved
-
-│ ├── datasets/ # Directory where uploaded datasets are saved (ensure it exists)
-
-│ ├── generated_plots/ # Directory for saved visualizations (ensure it exists)
-
-│ ├── .venv/ # Python virtual environment (recommended)
-
-│ ├── api.py # Main Flask application file
-
-│ ├── ModelingTool.py # Tool for H2O AutoML modeling
-
-│ ├── DataVisualizationTool.py # Tool for data visualization
-
-│ ├── requirements.txt # Python dependencies (You need to create this!)
-
-│ └── .env # Environment variables (API Keys, etc.)
-
+│   ├── api.py                      # Main Flask application file
+│   ├── ModelingTool.py             # Tool for H2O AutoML modeling
+│   ├── DataVisualizationTool.py    # Tool for data visualization (if created)
+│   ├── requirements.txt            # Python dependencies (to be created)
+│   ├── .env                        # Environment variables (API Keys, etc.)
+│   ├── best_model/                 # Directory where trained models are saved
+│   ├── datasets/                   # Directory where uploaded datasets are saved
+│   ├── generated_plots/            # Directory for saved visualizations
+│   └── .venv/                      # Python virtual environment (optional but recommended)
+│
 ├── frontend/
-
-│ ├── public/
-
-│ ├── src/
-
-│ │ ├── App.jsx # Main React component
-
-│ │ └── main.jsx # Application entry point
-
-│ ├── index.html
-
-│ ├── package.json # Frontend dependencies
-
-│ └── vite.config.js # Vite configuration
-
-└── README.md # This file
+│   ├── public/                     # Static assets
+│   │   └── index.html              # Main HTML page
+│   ├── src/                        # Frontend source code
+│   │   ├── App.jsx                 # Main React application component
+│   │   └── main.jsx                # React application entry point
+│   ├── package.json                # Frontend dependencies and scripts
+│   ├── package-lock.json           # Lockfile for frontend dependencies
+│   └── vite.config.js              # Vite build configuration
+│
+├── .gitignore                      # Git ignore file (recommended)
+└── README.md                       # This file
 
 
 ## Prerequisites
