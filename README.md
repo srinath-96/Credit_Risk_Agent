@@ -13,7 +13,7 @@ This project is a web application featuring a chatbot interface designed to assi
 
 ## Project Structure
 ```plaintext
-AcreditRiskAPP/
+Credit_Risk_Agent/
 ├── .gitignore                      # Git ignore file (recommended)
 ├── README.md                       # This file
 │
