@@ -13,6 +13,9 @@ This project is a web application featuring a chatbot interface designed to assi
 
 ## Project Structure
 AcreditRiskAPP/
+├── .gitignore                      # Git ignore file (recommended)
+├── README.md                       # This file
+│
 ├── backend/
 │   ├── api.py                      # Main Flask application file
 │   ├── ModelingTool.py             # Tool for H2O AutoML modeling
@@ -24,18 +27,15 @@ AcreditRiskAPP/
 │   ├── generated_plots/            # Directory for saved visualizations
 │   └── .venv/                      # Python virtual environment (optional but recommended)
 │
-├── frontend/
-│   ├── public/                     # Static assets
-│   │   └── index.html              # Main HTML page
-│   ├── src/                        # Frontend source code
-│   │   ├── App.jsx                 # Main React application component
-│   │   └── main.jsx                # React application entry point
-│   ├── package.json                # Frontend dependencies and scripts
-│   ├── package-lock.json           # Lockfile for frontend dependencies
-│   └── vite.config.js              # Vite build configuration
-│
-├── .gitignore                      # Git ignore file (recommended)
-└── README.md                       # This file
+└── frontend/
+    ├── public/                     # Static assets
+    │   └── index.html              # Main HTML page
+    ├── src/                        # Frontend source code
+    │   ├── App.jsx                 # Main React application component
+    │   └── main.jsx                # React application entry point
+    ├── package.json                # Frontend dependencies and scripts
+    ├── package-lock.json           # Lockfile for frontend dependencies
+    └── vite.config.js              # Vite build configuration
 
 
 ## Prerequisites
