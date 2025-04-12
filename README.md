@@ -12,6 +12,7 @@ This project is a web application featuring a chatbot interface designed to assi
 *   **Backend API:** Provides endpoints for chat interaction, model training, and data upload.
 
 ## Project Structure
+```plaintext
 AcreditRiskAPP/
 ├── .gitignore                      # Git ignore file (recommended)
 ├── README.md                       # This file
@@ -36,7 +37,7 @@ AcreditRiskAPP/
     ├── package.json                # Frontend dependencies and scripts
     ├── package-lock.json           # Lockfile for frontend dependencies
     └── vite.config.js              # Vite build configuration
-
+```
 
 ## Prerequisites
 
