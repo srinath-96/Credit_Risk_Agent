@@ -66,8 +66,8 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
-    cd AcreditRiskAPP
+    git clone https://github.com/srinath-96/Credit_Risk_Agent.git
+    cd Credit_Risk_Agent
     ```
 
 2.  **Backend Setup:**
@@ -157,6 +157,10 @@ You need to run both the backend and frontend servers concurrently.
 
 3.  **Access the Application:**
     *   Open your web browser and navigate to the address provided by the frontend server (usually `http://localhost:5173`).
+    *   This is What it should look like:
+![image](https://github.com/user-attachments/assets/5a7ef2d2-1481-4539-b1b8-5bba63751098)
+![image](https://github.com/user-attachments/assets/a578fb62-9e97-408c-9c36-5d25868fb873)
+![image](https://github.com/user-attachments/assets/58e7c3ab-0df7-4108-9b87-c5affe3d5e8c)
 
 ## API Endpoints (Backend)
 
