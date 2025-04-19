@@ -162,4 +162,8 @@ You need to run both the backend and frontend servers concurrently.
 *   **Backend:** Flask, python-dotenv, pandas, h2o, smol-agents (see `backend/requirements.txt` for full list).
 *   **Frontend:** React, Vite (see `frontend/package.json` for full list).
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 ---
+
