@@ -163,5 +163,3 @@ You need to run both the backend and frontend servers concurrently.
 *   **Frontend:** React, Vite (see `frontend/package.json` for full list).
 
 ---
-
-Remember to replace placeholder text like `<your-repository-url>` and ensure the `requirements.txt` file is accurate for your backend setup.
